@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border: solid;
+    width: 340px;
+    height: auto;
+    margin: 20px;
+}
+form input{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    font-size: 15px;
+    text-align: center;
+}
+form textarea{
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+form input:nth-of-type(2){
+    height: 50px;
+    width: 150px;
+    margin: 0px auto;
+    font-size: 20px;
+    color: black;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    border-bottom: 2px solid;
+    margin: 5px;
+}
+div h4{
+    margin: 5px;
+}
